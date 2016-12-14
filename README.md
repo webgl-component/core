@@ -1,5 +1,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Dependencies][david-image]][david-url]
+[![build status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
 
 # Introduction
 This is a library targets 2D hardware-acclerated graphic rendering. This is useful in data presentation scenario
@@ -231,3 +233,7 @@ constructor(hex: number, opacity?: number)
 [npm-url]: https://www.npmjs.com/package/@webgl/core
 [david-image]: https://img.shields.io/david/webgl-component/core.svg?style=flat-square
 [david-url]: https://david-dm.org/joesonw/webgl-component/core
+[travis-image]: https://img.shields.io/travis/webgl-component/core/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/webgl-component/core
+[coveralls-image]: https://img.shields.io/coveralls/webgl-component/core/master.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/webgl-component/core?branch=master

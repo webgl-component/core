@@ -5,18 +5,18 @@ dist: trusty
 addons:
   apt:
     packages:
-    - mesa-utils
-    - xvfb
-    - libgl1-mesa-dri
-    - libglapi-mesa
-    - libosmesa6
-    - ibcairo2-dev
-    - libjpeg8-dev
-    - libpango1.0-dev
-    - libgif-dev
-    - build-essential
-    - g++
-    - graphicsmagick
+      - mesa-utils
+      - xvfb
+      - libgl1-mesa-dri
+      - libglapi-mesa
+      - libosmesa6
+      - ibcairo2-dev
+      - libjpeg8-dev
+      - libpango1.0-dev
+      - libgif-dev
+      - build-essential
+      - g++
+      - graphicsmagick
 node_js:
   - 6
 sudo: false
