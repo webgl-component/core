@@ -1,0 +1,13 @@
+{
+   "compilerOptions":{
+      "module": "commonjs",
+      "outDir": "./test-dist",
+      "target": "ES6",
+      "moduleResolution": "node"
+   },
+   "compileOnSave": false,
+   "buildOnSave": false,
+   "include":[
+      "./test/*.ts"
+   ]
+}
