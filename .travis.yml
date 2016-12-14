@@ -1,7 +1,5 @@
 language: node_js
 sudo: required
-os: linux
-dist: trusty
 addons:
   apt:
     packages:
