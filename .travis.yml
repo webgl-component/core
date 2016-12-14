@@ -1,10 +1,9 @@
 language: node_js
-sudo: required
 node_js:
   - 6
 sudo: false
 before_install:
-  - sudo apt-get update
+  - sudo apt-get update -y
   - sudo apt-get install imagemagick graphicsmagick -y
   - sudo apt-get install mesa-utils xvfb libgl1-mesa-dri libglapi-mesa libosmesa6 -y
   - sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev g++-4.9 -y
