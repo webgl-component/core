@@ -19,6 +19,7 @@
     "@types/chai": "^3.4.34",
     "@types/gm": "^1.17.29",
     "@types/mocha": "^2.2.33",
+    "@webgl/test": "^0.1.0",
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
     "babel-preset-es2015": "^6.18.0",
@@ -40,7 +41,6 @@
     "@types/node": "0.0.2",
     "babel-polyfill": "^6.20.0",
     "gl-matrix": "^2.3.2",
-    "mocha": "^3.2.0",
     "opentype.js": "^0.6.6"
   },
   "keywords": [

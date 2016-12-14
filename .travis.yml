@@ -22,6 +22,6 @@ node_js:
 sudo: false
 before_script:
   - export DISPLAY=:99.0; sh -e /etc/init.d/xvfb start
-  - npm i istanbul mocha typescript@next -g
+  - npm i istanbul mocha typescript -g
 script: npm install; npm test
 after_script: npm run cover && npm install coveralls@2 && cat ./coverage/lcov.info | coveralls
