@@ -18,6 +18,7 @@ before_install:
   - export CXX="g++-4.9"
   - export DISPLAY=:99.0; sh -e /etc/init.d/xvfb start
 before_script:
-  - npm i node-gyp istanbul mocha typescript coveralls@2 -g
+  - npm i node-gyp istanbul mocha typescript codecov -g
 script: npm i; npm test
-after_script: npm run cover && cat ./coverage/lcov.info | coveralls
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
