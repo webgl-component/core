@@ -20,5 +20,6 @@ before_install:
 before_script:
   - npm i node-gyp istanbul mocha typescript codecov -g
 script: npm i; npm test
+after_script: npm run cover && codecov
 after_success:
   - bash <(curl -s https://codecov.io/bash)

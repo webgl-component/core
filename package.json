@@ -9,7 +9,7 @@
     "build": "webpack --progress --profile --colors",
     "build-test": "mkdir -p test-results && npm run build && tsc -p tsconfig.test.json",
     "mocha": "mocha test-dist/*.js --require source-map-support/register",
-    "istanbul": "istanbul cover _mocha test-dist/*.js --report lcovonly -- -R spec",
+    "istanbul": "istanbul cover _mocha test-dist/*.js",
     "cover": "npm run build-test && npm run istanbul",
     "test": "npm run build-test && npm run mocha"
   },
