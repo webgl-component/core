@@ -235,5 +235,5 @@ constructor(hex: number, opacity?: number)
 [david-url]: https://david-dm.org/joesonw/webgl-component/core
 [travis-image]: https://img.shields.io/travis/webgl-component/core/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/webgl-component/core
-[codecov-image]: https://img.shields.io/codecov/c/github/webgl-component/core
+[codecov-image]: https://img.shields.io/codecov/c/github/webgl-component/core.svg
 [codecov-url]: https://codecov.io/gh/webgl-component/core
