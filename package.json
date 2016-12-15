@@ -1,7 +1,7 @@
 {
   "name": "@webgl/core",
   "version": "0.1.0",
-  "description": "WebGl 2D optimized library, targets large fancy data presentation scenarios.",
+  "description": "WebGl component core",
   "main": "dist/index.js",
   "typings": "dist/ts/index.d.ts",
   "scripts": {
@@ -53,7 +53,9 @@
     "gl",
     "opengl",
     "presentation",
-    "present"
+    "present",
+    "component",
+    "core"
   ],
   "directories": {
     "test": "test"
